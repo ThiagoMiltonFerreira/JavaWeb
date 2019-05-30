@@ -1,0 +1,10 @@
+
+1 - Nao consegue excluir se ja tiver alterado
+Antes de alterar
+1;thiago333;3;150.0;450.0;hj;2;0;gddf;1
+dps de alterar
+1;thiago444;3;150.0;450.0;hj;2;1
+
+o alterar nao insere o campo destino produto comprado 
+verificar apartir da linha 168 no array novo conteudo 
+esta add sem ele.

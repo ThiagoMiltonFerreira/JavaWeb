@@ -1,0 +1,2 @@
+1;IphoneX;1;1700.0;1700.0;Iphone Tela Trincada;2;0;MKT
+2;Cadeiras Escritorio;50;200.0;10000.0;Substituicao de cadeiras ADM;3;0;Administracao

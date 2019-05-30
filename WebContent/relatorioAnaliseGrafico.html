@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="arquivo.css" media="screen" />
+<title>Carteira Web Analise Graficos</title>
+
+<ul>
+  <li><a href="PagLancamentoDeCompra.html">Compra</a></li>
+  <li><a href="PagLancamentoDeVenda.html">Venda</a></li>
+  <li><a href="retirarValor.html">Retirar Valor</a></li>
+  <li><a href="adicionarValor.html">Adicionar Valor</a></li>
+  <li><a href="relatorioAnaliseGrafico.html">Relatorio Geral</a></li>
+
+</ul>
+<hr>
+</head>
+<body>
+
+	<br><h1 id="sublinhar">Relatorio Geral.</h1>
+<form action="ProcessaRelatorio1" method='get'>
+	  
+	        		
+	        		<!-- Data Inicial:  <input type='date' name='txtRetirarValorSaldo' placeholder="Saldo Atual." required> -->
+		        	<!-- Data Final:  <input type='date' name='txtRetirarValorRetirada'placeholder="Valor adicionar." required>
+		        	Relatorio de:  <select name='qualRelatorio'>
+									  <option value='1'>Compra</option>
+									  <option value='2'>Venda</option>
+					 -->				  
+
+		        		<h1 id="fonteIndex">Vendas.</h1>
+						<iframe src="retRelatorio" width="500px" id="iframeRelatorio">.</iframe>
+						<h1 id="fonteIndex">Compras.</h1>
+						<iframe src="retRelatorioCompra" width="500px" id="iframeRelatorio"></iframe>
+
+</form>
+</body>
+</html>
+</html>
